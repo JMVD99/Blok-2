@@ -4,8 +4,7 @@ $voornaam = "Marco";
 $achternaam = "van Doeland";
 $naam = $voornaam . $achternaam;
 echo "<p>" . $leeftijd . "</p>";
-echo "<p>" . $voornaam . "</p>";
-echo "<p>" . $achternaam . "</p>";
+echo "<p>" . $naam . "</p>";
 
 $getal1 = 3;
 $getal2 = 5;
