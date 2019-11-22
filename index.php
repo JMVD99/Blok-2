@@ -15,7 +15,7 @@
   <body>
     <main class="container">
     <div class="row">
-        <div class="col-12"><header class="fixed-top"><h1>Sinterklaas verlanglijstje</h1></header></div>
+        <div class="col-12"><header><h1>Sinterklaas verlanglijstje</h1></header></div>
     </div>
     <div class="row" id="navigation">
       <div class="col-12">
@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12"><footer class="fixed-bottom"><h1>Dit is wat ik dit jaar wil voor Sinterklaas</h1></footer></div>
+        <div class="col-12"><footer><h1>Dit is wat ik dit jaar wil voor Sinterklaas</h1></footer></div>
     </div>
     </main>
 
