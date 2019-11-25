@@ -18,10 +18,10 @@ $chocoladeletter = array("./IMG/Chocoladeletters.jpg",
                     "Chocoladeletters zijn letters met chocolade smaak",
                     "Koop ze hier");
 
-$schuimpje = array("./IMG/schuimpjes.jpg",
-                    "Schuimpjes",
-                    "Pepernoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
-                    "Koop ze hier");
+$schuimpje = array("image_path" => "./IMG/schuimpjes.jpg",
+                   "title"      => "Schuimpjes",
+                   "text"       => "Pepernoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
+                   "button_text"=> "Koop ze hier");
 
 $kruidnoot = array("./IMG/kruidnoten.jfif",
                     "Kruidnoten",
