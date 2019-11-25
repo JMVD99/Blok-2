@@ -27,6 +27,11 @@ $kruidnoot = array("./IMG/kruidnoten.jfif",
                     "Kruidnoten",
                     "Kruidnoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
                     "Koop ze hier");
+
+$Boek = array("images_path" => "./IMG/grote-boek-van-sinterklaas",
+              "title"       => "Het Boek",
+              "text"        => "In het boek staan alle namen en wensen van de kinderen in nederland en zuid-nederland",
+              "button_text" => "Koop hem hier")
 ?>
 
 <div class="row">
@@ -51,22 +56,29 @@ $kruidnoot = array("./IMG/kruidnoten.jfif",
         </div>
     </div>
     <div class="col-4">
-    <div class="card">
+        <div class="card">
             <img src="<?php echo $chocoladeletter[0] ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $chocoladeletter[1] ?></h5>
                 <p class="card-text"><?php echo $chocoladeletter[2] ?></p>
                 <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3] ?></a>
             </div>
-        </div> 
+        </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-12"></div>
+    <div class="col-4">
+        <div class="card">
+            <img src="<?php echo $chocoladeletter[0] ?>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $chocoladeletter[1] ?></h5>
+                <p class="card-text"><?php echo $chocoladeletter[2] ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3] ?></a>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="row">
-    <div class="col-4"></div>
-    <div class="col-4"></div>
-    <div class="col-4"></div>
+<div class="col-4"></div>
+<div class="col-4"></div>
 </div>
