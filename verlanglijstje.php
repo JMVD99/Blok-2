@@ -28,40 +28,40 @@ $kruidnoot = array("./IMG/kruidnoten.jfif",
                     "Kruidnoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
                     "Koop ze hier");
 
-$Boek = array("images_path" => "./IMG/grote-boek-van-sinterklaas",
+$Boek = array("image_path" => "./IMG/grote-boek-van-sinterklaas",
               "title"       => "Het Boek",
               "text"        => "In het boek staan alle namen en wensen van de kinderen in nederland en zuid-nederland",
-              "button_text" => "Koop hem hier")
+              "button_text" => "Koop hem hier");
 ?>
 
 <div class="row">
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $kruidnoot[0] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $kruidnoot[0]; ?>">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $kruidnoot[1] ?></h5>
-                <p class="card-text"><?php echo $kruidnoot[2] ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $kruidnoot[3] ?></a>
+                <h5 class="card-title"><?php echo $kruidnoot[1]; ?></h5>
+                <p class="card-text"><?php echo $kruidnoot[2]; ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $kruidnoot[3]; ?></a>
             </div>
         </div>
     </div>
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $schuimpje[0] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $schuimpje["image_path"]; ?>">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $schuimpje[1] ?></h5>
-                <p class="card-text"><?php echo $schuimpje[2] ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $schuimpje[3] ?></a>
+                <h5 class="card-title"><?php echo $schuimpje["title"]; ?></h5>
+                <p class="card-text"><?php echo $schuimpje["text"]; ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $schuimpje["button_text"]; ?></a>
             </div>
         </div>
     </div>
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $chocoladeletter[0] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $chocoladeletter[0]; ?>">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $chocoladeletter[1] ?></h5>
-                <p class="card-text"><?php echo $chocoladeletter[2] ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3] ?></a>
+                <h5 class="card-title"><?php echo $chocoladeletter[1]; ?></h5>
+                <p class="card-text"><?php echo $chocoladeletter[2]; ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3]; ?></a>
             </div>
         </div>
     </div>
@@ -70,11 +70,11 @@ $Boek = array("images_path" => "./IMG/grote-boek-van-sinterklaas",
 <div class="row">
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $Boek[0] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $Boek["image_path"]; ?>">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $Boek[1] ?></h5>
-                <p class="card-text"><?php echo $Boek[2] ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $Boek[3] ?></a>
+                <h5 class="card-title"><?php echo $Boek["title"]; ?></h5>
+                <p class="card-text"><?php echo $Boek["text"]; ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $Boek["button_text"]; ?></a>
             </div>
         </div>
     </div>
