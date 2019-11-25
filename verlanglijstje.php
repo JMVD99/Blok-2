@@ -13,19 +13,19 @@ $som = $getal1 + $getal2;
 // echo "<p>De waarde van de tweede variabele is: " . $getal2 . "</p>";
 // echo "<p>De som is: " . $som . "</p>";
 
-$card_image_2 = "./IMG/Chocoladeletters.jpg";
-$card_title_2 = "Pepernoten";
-$card_text_2 = "Pepernoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht";
-$card_btn_2 = "Koop ze hier";
+$chocoladeletter = array("./IMG/Chocoladeletters.jpg",
+                    "Chocoladeletters",
+                    "Chocoladeletters zijn letters met chocolade smaak",
+                    "Koop ze hier");
 
-$card_image_3 = "./IMG/schuimpjes.jpg";
-$card_title_3 = "Pepernoten";
-$card_text_3 = "Pepernoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht";
-$card_btn_3 = "Koop ze hier";
+$schuimpje = array("./IMG/schuimpjes.jpg",
+                    "Schuimpjes",
+                    "Pepernoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
+                    "Koop ze hier");
 
 $kruidnoot = array("./IMG/kruidnoten.jfif",
-                    "kruidnoten",
-                    "kruidnoten noten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
+                    "Kruidnoten",
+                    "Kruidnoten is een heerlijk lekkernij dat al vanaf midden augustus in de winkel licht",
                     "Koop ze hier");
 ?>
 
@@ -42,21 +42,21 @@ $kruidnoot = array("./IMG/kruidnoten.jfif",
     </div>
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $card_image_2 ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $schuimpje[0] ?>" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $card_title_2 ?></h5>
-                <p class="card-text"><?php echo $card_text_2 ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $card_btn_2 ?></a>
+                <h5 class="card-title"><?php echo $schuimpje[1] ?></h5>
+                <p class="card-text"><?php echo $schuimpje[2] ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $schuimpje[3] ?></a>
             </div>
         </div>
     </div>
     <div class="col-4">
     <div class="card">
-            <img src="<?php echo $card_image_3 ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $chocoladeletter[0] ?>" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $card_title_3 ?></h5>
-                <p class="card-text"><?php echo $card_text_3 ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $card_btn_3 ?></a>
+                <h5 class="card-title"><?php echo $chocoladeletter[1] ?></h5>
+                <p class="card-text"><?php echo $chocoladeletter[2] ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3] ?></a>
             </div>
         </div> 
     </div>
