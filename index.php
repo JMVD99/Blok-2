@@ -24,7 +24,14 @@
     </div>
     <div class="row" id="content">
       <div class="col-12">
-          <?php include("./verlanglijstje.php"); ?>
+          <?php 
+          if ( isset($_GET["content"]) ) {
+          include("./" . $_GET["content"] . ".php"); 
+          }
+          else {
+            include("./home.php");
+          }
+          ?>
         </div>
     </div>
     <div class="row">

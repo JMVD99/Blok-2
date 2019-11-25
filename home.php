@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-6">
-        <img class="images-fluid" scr="./IMG/Kado.jpg">
+        <img src="./IMG/Kado.jpg">
     </div>
     <div class="col-6">
         <h1>    
