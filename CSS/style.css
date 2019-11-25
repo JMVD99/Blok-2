@@ -16,30 +16,6 @@ header, footer {
     min-height: 500px;
 }
 
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-
 img {
     width: 90%;
     padding: 10px;
@@ -48,16 +24,4 @@ img {
 .col-6 {
     padding: 20px;
     font-family: 'Permanent Marker', cursive;
-}
-
-div p:nth-child(1) {
-    color: aqua;
-}
-
-div p:nth-child(2) {
-    color: aquamarine;
-}
-
-div p:nth-child(3) {
-    color: cadetblue;
 }
