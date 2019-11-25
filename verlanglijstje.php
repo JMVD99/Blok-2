@@ -70,11 +70,11 @@ $Boek = array("images_path" => "./IMG/grote-boek-van-sinterklaas",
 <div class="row">
     <div class="col-4">
         <div class="card">
-            <img src="<?php echo $chocoladeletter[0] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $Boek[0] ?>" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><?php echo $chocoladeletter[1] ?></h5>
-                <p class="card-text"><?php echo $chocoladeletter[2] ?></p>
-                <a href="#" class="btn btn-primary"><?php echo $chocoladeletter[3] ?></a>
+                <h5 class="card-title"><?php echo $Boek[1] ?></h5>
+                <p class="card-text"><?php echo $Boek[2] ?></p>
+                <a href="#" class="btn btn-primary"><?php echo $Boek[3] ?></a>
             </div>
         </div>
     </div>
