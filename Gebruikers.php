@@ -1,5 +1,5 @@
 <div class="col-6">
-    <form>
+    <form action="./index.php?content=create" method="post">
         <div class="form-group">
             <label for="Firstname">Voornaam</label>
             <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" name="firstname">
@@ -19,3 +19,4 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+<div class="col-6"
