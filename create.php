@@ -20,7 +20,7 @@
                                 
     mysqli_query($conn, $query);
                     
-    header("Refresh: 10; index.php?content=home")
+    header("Refresh: 5; index.php?content=home")
 ?>
 
 <h3>Uw gegevens zijn verwerkt.<h3>
