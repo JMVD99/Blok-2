@@ -15,7 +15,10 @@
         <a class="nav-link" href="./index.php?content=Gebruikers">Gebruikers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./index.php?content=read">Table</a>
+        <a class="nav-link" href="./index.php?content=read">Gebruikerstabel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./index.php?content=add_deliver_info">Bezorginformatie toevoegen</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

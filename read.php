@@ -38,9 +38,6 @@
         <h1 class="display-4">Sinterklaasverlanglijstje</h1>
         <p class="lead">Sinterklaas maakt al je dromen waar</p>
     </div>
-    <div class="row">
-        <div class=col-12>
-
         </div>
         <div class=col-12>
             <table class="table table-hover">
@@ -48,7 +45,7 @@
                     <tr>
                     <th scope="col">id</th>
                     <th scope="col">Firstname</th>
-                    <th scope="col">Inflix</th>
+                    <th scope="col">Infix</th>
                     <th scope="col">Lastname</th>
                     </tr>
                 </thead>
