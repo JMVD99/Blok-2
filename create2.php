@@ -5,17 +5,16 @@
     $databasename = "sint-site";
 
     $conn = mysqli_connect($servername, $username, $password, $databasename);
-    $Woonplaats = $_POST ["city"];
-    $Bezorgmethode = $_POST ["bezorgmethode"];
-    $Huiskleur = $_POST ["color"];
+    $woonplaats = $_POST ["city"];
+    $bezorgmethode = $_POST ["bezorgmethode"];
+    $huiskleur = $_POST ["color"];
 
-    $query = "INSERT INTO `bezorgmethode`   (`woonplaats`,
+    $query = "INSERT INTO `bezorginfo`(`woonplaats`,
                                     `bezorgmethode`,
                                     `huiskleur`)
-                           Values  ('$Woonplaats',
-                                    '$Bezorgmethode',
-                                    '$Huiskleur')";
-                    
+                           values  ('$woonplaats',
+                                    '$bezorgmethode',
+                                    '$huiskleur')";
     mysqli_query($conn, $query);
 
     header("Refresh: 5; index.php?content=home")

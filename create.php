@@ -22,3 +22,6 @@
                     
     header("Refresh: 5; index.php?content=home")
 ?>
+
+<h3>Uw gegevens zijn verwerkt.<h3>
+<h3>U zal terug gestuurd worden naar de homepagina.<h3>

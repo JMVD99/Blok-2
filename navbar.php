@@ -17,16 +17,13 @@
       <li class="nav-item">
         <a class="nav-link" href="./index.php?content=read">Gebruikerstabel</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./index.php?content=add_deliver_info">Bezorginformatie toevoegen</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          PHP Playground
+          Proeftoets
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another Action</a>
+          <a class="dropdown-item" href="./index.php?content=add_deliver_info">Bezorginformatie toevoegen</a>
+          <a class="dropdown-item" href="./index.php?content=read_deliver_info">Bezorginformatie zien</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>

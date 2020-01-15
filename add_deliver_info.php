@@ -1,4 +1,4 @@
-<div class="col-6">
+<div class="col-12">
     <form action="./index.php?content=create2" method="post">
         <div class="form-group">
             <label for="Woonplaats">Woonplaats</label>
@@ -23,4 +23,3 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
-<div class="col-6"
