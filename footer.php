@@ -1,3 +1,3 @@
 <footer>
-    <h1>Dit is wat ik dit jaar wil voor Sinterklaas</h1>
+    <h1>De site voor jou lijst</h1>
 </footer>

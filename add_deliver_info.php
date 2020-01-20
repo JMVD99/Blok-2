@@ -7,7 +7,7 @@
         </div>
         <div class="form-group">
             <label for="Bezorgmethode">Bezorgmethode</label>
-            <select name="bezorgmethode">
+            <select name="bezorgmethode" class="form-control">
                 <option value="schoorsteen">schoorsteen</option>
                 <option value="voordeur">voordeur</option>
                 <option value="achterdeur">achterdeur</option>

@@ -1,19 +1,26 @@
 <?php
  include("./connect_db.php");
 
- $sql = "SELECT * FROM `users`";
+ $sql = "SELECT * FROM `pieteninfo`";
 
  $result = mysqli_query($conn, $sql);
 
  $records = "";
 
  while ($record = mysqli_fetch_assoc($result)) {
-    $records .=  "<tr><th scope='row'>" . $record["UserID"] . "</th>
-                        <td>" . $record["Firstname"] . "</td>
-                        <td>" . $record["Infix"] . "</td>
-                        <td><img src='./IMG/icons/b_edit.png' alt='...'></td>
+    $records .=  "<tr><th scope='row'>" . $record["id"] . "</th>
+                        <td>" . $record["standplaats"] . "</td>
+                        <td>" . $record["naam"] . "</td>
+                        <td>" . $record["kleur"] . "</td>
+                        <td>
+                            <a href = './update.php?id=" . $record["id"] . "'>
+                                <img src='./IMG/icons/b_edit.png' alt='...' class='icon'></td>
+                            </a>
+                        <td>
+                            <a href = './delete.php?id=" . $record["id"] . "''>
+                                <img src='./IMG/icons/b_drop.png' alt='...' class='icon'></td>
+                            </a>
                         </tr>";
-
  }
 
 ?>
@@ -45,9 +52,12 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                    <th scope="col">Woonplaats</th>
-                    <th scope="col">Bezorgmethode</th>
-                    <th scope="col">Huiskleur</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Standplaats</th>
+                    <th scope="col">Naam</th>
+                    <th scope="col">Kleur</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Lijstje.org</a>
+  <a class="navbar-brand" href="./index.php?content=home">Lijstje.org</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,12 +19,13 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Proeftoets
+          Toets pagina's
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="./index.php?content=add_deliver_info">Bezorginformatie toevoegen</a>
-          <a class="dropdown-item" href="./index.php?content=read_deliver_info">Bezorginformatie zien</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="./index.php?content=read_deliver_info">Bezorginformatie Bekijken</a>
+          <a class="dropdown-item" href="./index.php?content=add_pieten_info">Pieteninfo Toevoegen</a>
+          <a class="dropdown-item" href="./index.php?content=pieten_info">Pieteninfo</a>
         </div>
       </li>
     </ul>

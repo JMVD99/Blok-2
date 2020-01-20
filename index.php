@@ -43,7 +43,7 @@
   <main class="container">
     <div class="row" id="footer">
       <div class="col-12">
-        <?php include("./header.php"); ?>
+        <?php include("./footer.php"); ?>
       </div>
     </div>
   </main>
