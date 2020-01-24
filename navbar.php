@@ -26,6 +26,7 @@
           <a class="dropdown-item" href="./index.php?content=read_deliver_info">Bezorginformatie Bekijken</a>
           <a class="dropdown-item" href="./index.php?content=add_pieten_info">Pieteninfo Toevoegen</a>
           <a class="dropdown-item" href="./index.php?content=pieten_info">Pieteninfo</a>
+          <a class="dropdown-item" href="./index.php?content=Gaar">Gaar</a>
         </div>
       </li>
     </ul>
