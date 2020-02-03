@@ -1,9 +1,10 @@
 <?php
  include("./connect_db.php");
-
- $sql = "SELECT * FROM `users`";
-
- $result = mysqli_query($conn, $sql);
+ $per_page = 5;
+ $start = ($page-1)*$per_page;
+ $sql = "SELECT * FROM `users` order by id limit $start,$per_page";
+ $count = mysqli_num_rows($result);
+ $pages = ceil($count/$per_page);
 
  $records = "";
 
@@ -12,10 +13,9 @@
                         <td>" . $record["Firstname"] . "</td>
                         <td>" . $record["Infix"] . "</td>
                         <td>" . $record["Lastname"] . "</td></tr>";
- }
-
- ?>
-
+}
+?>
+​
 <!doctype html>
 <html lang="en">
 
@@ -33,30 +33,43 @@
     <title>Sinterklaasverlanglijstje</title>
 </head>
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Sinterklaasverlanglijstje</h1>
-        <p class="lead">Sinterklaas maakt al je dromen waar</p>
-    </div>
-        </div>
-        <div class=col-12>
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                    <th scope="col">id</th>
-                    <th scope="col">Firstname</th>
-                    <th scope="col">Infix</th>
-                    <th scope="col">Lastname</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php
+<div class=col-12>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Firstname</th>
+                <th scope="col">Infix</th>
+                <th scope="col">Lastname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
                         echo $records
                     ?>
-                </tbody>
-            </table>
-        </div>
-    </div>
+        </tbody>
+    </table>
+</div>
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li>
+            <a href="index.php?page=<?php if ($page > 1 ) { echo $page - 1;} else { echo $page; } ?>"
+                aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li>
+            <a href="index.php?page=<?php if ($page < $pages ) { echo $page+1;} else { echo $page; } ?>"
+                aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+</div>
 </div>
 <?php
     include("./footer.php");
@@ -74,4 +87,4 @@
     crossorigin="anonymous"></script>
 <script scr="./JS/app.js"><script>
   </body>
-</html>
+</html >

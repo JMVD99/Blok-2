@@ -5,9 +5,12 @@
     $databasename = "sint-site";
 
     $conn = mysqli_connect($servername, $username, $password, $databasename);
-    $firstname = $_POST ["firstname"];
-    $infix = $_POST ["infix"];
-    $lastname = $_POST ["lastname"];
+    
+    include("./functions.php");
+    
+    $firstname = sanatize($_POST ["firstname"]);
+    $infix = sanatize($_POST ["infix"]);
+    $lastname = sanatize($_POST ["lastname"]);
 
     $query = "INSERT INTO `users`   (`UserID`,
                                     `Firstname`,

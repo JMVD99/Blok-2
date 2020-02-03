@@ -9,10 +9,7 @@
         <a class="nav-link" href="./index.php?content=home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./index.php?content=verlanglijstje">Verlanglijstje</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./index.php?content=Gebruikers">Gebruikers</a>
+        <a class="nav-link" href="./index.php?content=Gebruikers">Gebruikers Toevoegen</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./index.php?content=read">Gebruikerstabel</a>
@@ -25,8 +22,7 @@
           <a class="dropdown-item" href="./index.php?content=add_deliver_info">Bezorginformatie toevoegen</a>
           <a class="dropdown-item" href="./index.php?content=read_deliver_info">Bezorginformatie Bekijken</a>
           <a class="dropdown-item" href="./index.php?content=add_pieten_info">Pieteninfo Toevoegen</a>
-          <a class="dropdown-item" href="./index.php?content=pieten_info">Pieteninfo</a>
-          <a class="dropdown-item" href="./index.php?content=Gaar">Gaar</a>
+          <a class="dropdown-item" href="./index.php?content=pieten_info">Pieteninfo Bekijken</a>
         </div>
       </li>
     </ul>
