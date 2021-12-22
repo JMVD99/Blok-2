@@ -1,0 +1,26 @@
+header, footer {
+    text-align: center;
+    color: yellow;
+    background-color: red;
+    border: 10px solid goldenrod;
+    padding: 20px;
+    margin: 0px;
+}
+
+#navigation {
+    margin: 1px;
+}
+
+#content {
+    background-color: whitesmoke;
+    min-height: 500px;
+}
+
+img {
+    width: 90%;
+    padding: 10px;
+}
+
+img.icon {
+    width: 50%;
+}
